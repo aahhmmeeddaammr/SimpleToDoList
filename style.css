@@ -1,0 +1,127 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+a{
+     text-decoration: none;
+     color: rgb(0, 131, 245);
+}
+
+body{
+     background:linear-gradient(to top,#fff,#ceedf4);
+     max-height: fit-content;
+     min-height: 100vh;
+     width: 100%;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main{
+     margin: auto ;
+     width: 50%;
+     margin: 50px 390px;
+     border: 0px;
+     height: fit-content;
+     padding: 20px;
+}
+
+.input {
+     margin: 20px;
+     display: block;
+     padding: 20px 40px;
+     color: black;
+     text-align: center;
+}
+
+.head{
+     padding: 20px 20px;
+     font-size: 30px;
+     width: fit-content;
+}
+
+.head:hover{
+     transform: scale(1.1);
+}
+
+#name{
+     margin: 20px ;
+     width: 60%;
+     border-radius: 20px;
+     border: 0px;
+     padding: 6px 6px;
+     background-color: rgb(183, 214, 255);
+     height: 30px;
+     color: rgb(8, 8, 8);
+     font-size: 20px;
+}
+
+#name:focus{
+     transform: scale(1.1);
+     background-color: rgb(39, 76, 143);
+}
+
+button{
+     padding: 10px 10px;
+     width: fit-content;
+     border-radius: 5px;
+     font-size: 25px;
+     background-color: rgb(11, 128, 224);
+}
+
+#create{
+     display: block;
+     position: relative;
+     left: 19%;
+     width: 62%;
+     border: 0px;
+     border-radius: 25px;
+     font-size: 25px;
+     background-color: rgb(6, 143, 255);
+}
+
+button:hover{
+     background-color: rgb(11, 128, 224);
+     cursor: pointer;
+     transform: scale(1.1);
+}
+
+.output div{
+     padding: 5px 20px;
+     margin: 1px;
+     display: flex;
+     border-radius: 20px;
+     justify-content: space-between;
+     height: fit-content;
+     background-color: rgb(85, 134, 206);
+}
+
+.output div a{
+     color: black;
+     font-size: 30px;
+}
+
+.output div button{
+     background-color: rgb(85, 134, 206);
+     border: 0px;
+     text-align: center;
+     height: 50px;
+     width: fit-content;
+}
+.x:hover{
+     color: rgb(0, 0, 0);
+     width: 50px;
+     border-radius: 50%;
+     background-color: red;
+}
+
+.delete{
+     text-align: center;
+}
+
+.delete button{
+     width: 60%;
+     margin: 10px;
+     position: relative;
+     border: 0px;
+     border-radius: 20px;
+}
